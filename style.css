@@ -1,0 +1,85 @@
+
+@import
+url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+* {
+ font-family: "Pixelify Sans", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: white
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+    color: white;
+}
+.title{
+    font-size: 20px;
+}
+.title1{
+    font-size: 15px;
+}
+.score{
+    text-align: center;
+    border: 100px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+.score1{
+    background-color: rgb(54,54,54);
+    display:inline-block;
+    color:yellow;
+    font-size: 30px;
+}
+.pacman :hover{
+    background-color: rgb(84,84,84);
+
+}
+
+.item{
+    position: relative;
+    padding: auto;
+    bottom:auto;
+    top:auto;
+    width: 150px;
+}
+.pacman img{
+    height: 250px;
+}
+.item img{
+    height: 150px;
+}
+
+.item :hover{
+    background-color: rgb(84,84,84);
+    
+}
+.item :hover img{
+    background-color: rgb(84,84,84);
+    top:10px;
+    margin-bottom: 10px;
+}
+.start-game-box{
+    text-align: center;
+    border-style: solid;
+    width : 150px;
+    margin: auto;
+    border-color: green;
+}
+.start-game{
+    background-color: black;
+    border-color: rgb(135,255,88);
+    position: inherit;
+    margin: auto;
+}
+.shadow{
+    background-color: black;
+    border-color: rgb(135,255,88);
+    position: inherit;
+}
+footer{
+    text-align: right;
+}
