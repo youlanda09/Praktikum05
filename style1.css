@@ -1,0 +1,73 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #87CEEB;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #FF4500;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-shadow: 3px 3px 5px black;
+    font-size: 20px;
+    z-index: 1000;
+}
+.sidebar {
+    position:fixed;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #FFD700;
+    border-right: 5px solid #B8860B;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+
+}
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #B22222;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.sidebar ul li:hover {
+    background-color: #FF4500;
+    color: white;
+}
+.main-content {
+    margin-right: 220px;
+    padding: 20px;
+    background-color: #F5DEB3;
+    border: 5px solid #D2691E;
+    border-radius: 10px;
+}
+.status-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.status-table th, .status-table td {
+    border: 2px solid #8B4513;
+    padding: 10px;
+    text-align: left;
+}
+.hl{
+    color: white;
+    background-color: #228B22;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    color: black;
+    text-align: center;
+}
